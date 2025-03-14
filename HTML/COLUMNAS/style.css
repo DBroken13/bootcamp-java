@@ -1,0 +1,65 @@
+body {
+  background-color: mediumpurple;
+}
+p:hover {
+  color: aquamarine;
+  background-color: lightcoral;
+}
+p {
+  column-count: 3;
+  border-style: inset;
+  border-style: ;
+  column-gap: 40px;
+  column-rule-width: 2px;
+  column-rule-style: solid;
+  column-rule-color: honeydew;
+  background-color: fuchsia;
+}
+h1 {
+  color: aliceblue;
+  font-size: 2em;
+  transition-duration: 300ms;
+}
+h1:hover {
+  color: aquamarine;
+}
+
+input {
+    
+}]
+/* Estilo básico del formulario */
+form {
+    margin: 50px;
+    padding: 80px;
+}
+
+/* Estilo básico para la etiqueta */
+label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* Estilos para el input edad */
+input[type="number"] {
+    padding: 5px;
+    font-size: 14px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 100px;
+}
+
+/*el input es válido (edad entre 0 y 120)*/
+input[type="number"]:valid {
+    border: 2px solid green;
+    background-color: #79f796; /* color de fondo verde claro */
+}
+
+/*el input es inválido (fuera del rango 0-120) */
+input[type="number"]:invalid {
+    border: 2px solid red;
+    background-color: rgb(221, 34, 34); /* color de fondo rojo claro */
+}
+input[type="name"] {border-radius: 100px; color: rgb(0, 0, 0); padding: 8px;
+    font-size: 14px;
+    width: 150px;
+    margin-top: 20px; }
