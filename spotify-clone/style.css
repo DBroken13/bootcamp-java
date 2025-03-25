@@ -1,13 +1,16 @@
 body {
     margin: 0px;
+    padding: 0px;
     font-family: Arial, sans-serif;
 }
 
 header {
+    margin: 0px;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .logo img {
@@ -36,12 +39,37 @@ nav ul li a:hover {
     border-color: white;
 }
 
+.hero h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.hero p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
 /* 🚦 Semáfaro de media querys 🚦 */
 
 /* Desktop verde */
 @media (min-width: 1025px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
     body {
         background-color: green;
+    }
+    .hero {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 25px;
+        margin: 120px;
+        padding: 120px;
+
     }
 }
 
@@ -52,8 +80,21 @@ nav ul li a:hover {
     }
 
     header {
-        flex-direction: column;
+        flex-direction: column;    
     }
+    .hero {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 100px;
+        padding: 100px;
+        
+    }
+    p {
+        display: flex;
+        text-align: center  ;
+    }
+    
 }
 
 /* Mobile rojo */
@@ -64,9 +105,17 @@ nav ul li a:hover {
 
     header {
         flex-direction: column;
+        padding: 20px;
         }
     ul {
         flex-direction: column;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+margin: 100px;
     }
     
 }
