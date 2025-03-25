@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     margin: 0px;
     padding: 0px;
     font-family: Arial, sans-serif;
@@ -11,32 +12,54 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+=======
+  margin: 0px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+>>>>>>> 9f25e06f9850f8e540b95bfff688d0bbf2442358
 }
 
 .logo img {
-    width: 200px;
+  width: 200px;
 }
 
 nav ul {
-
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
 nav ul li {
-    display: inline;
+  display: inline;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: white;
-    padding: 5px 10px;
-    border: 2px solid transparent;
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border: 2px solid transparent;
 }
 
 nav ul li a:hover {
-    border-color: white;
+  border-color: white;
+}
+
+.hero h1 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.hero p {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 .hero h1 {
@@ -55,6 +78,7 @@ nav ul li a:hover {
 
 /* Desktop verde */
 @media (min-width: 1025px) {
+<<<<<<< HEAD
     * {
         margin: 0px;
         padding: 0px;
@@ -71,14 +95,20 @@ nav ul li a:hover {
         padding: 120px;
 
     }
+=======
+  body {
+    background-color: green;
+  }
+>>>>>>> 9f25e06f9850f8e540b95bfff688d0bbf2442358
 }
 
 /* Tablet amarillo */
-@media (min-width: 650px) and (max-width:1024px) {
-    body {
-        background-color: yellow;
-    }
+@media (min-width: 650px) and (max-width: 1024px) {
+  body {
+    background-color: yellow;
+  }
 
+<<<<<<< HEAD
     header {
         flex-direction: column;    
     }
@@ -95,14 +125,20 @@ nav ul li a:hover {
         text-align: center  ;
     }
     
+=======
+  header {
+    flex-direction: column;
+  }
+>>>>>>> 9f25e06f9850f8e540b95bfff688d0bbf2442358
 }
 
 /* Mobile rojo */
 @media (max-width: 649px) {
-    body {
-        background-color: red;
-    }
+  body {
+    background-color: red;
+  }
 
+<<<<<<< HEAD
     header {
         flex-direction: column;
         padding: 20px;
@@ -119,3 +155,24 @@ margin: 100px;
     }
     
 }
+=======
+  header {
+    flex-direction: column;
+  }
+  ul {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .hero p {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+>>>>>>> 9f25e06f9850f8e540b95bfff688d0bbf2442358
