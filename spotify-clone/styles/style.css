@@ -2,6 +2,12 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: Arial, sans-serif;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    /* Ajusta la imagen para que cubra el área */
+    background-position: center;
+    /* Centra la imagen */
+    font-size: 18px;
 }
 
 header {
@@ -48,11 +54,14 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   gap: 50px;
+  color: white;
+  
 }
 
 .hero h1 {
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .hero p {
